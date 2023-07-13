@@ -14,6 +14,17 @@ Un desarrollador utiliza su equipo para desarrollar aplicaciones Java EE con JBo
 >- jdk1.8.0_25\Contents\xjc
 >- jdk1.8.0_25\Contents\schemagen
 
+### El punto de entrada a JAXB Runtime API es
+>- JAXBContext
+
+### JAX-WS
+>- CXF 
+
+### tools
+>- wsdl2java
+>- java2wsdl
+>- http://cxf.apache.org/
+
 ### WSDL (Web Services Description Language)
 >- https://developer.ibm.com/technologies/web-development/
 
