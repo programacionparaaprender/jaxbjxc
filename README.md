@@ -3,6 +3,10 @@
 >- https://udemy.com/course/admin-jboss-eap/learn/lecture/13754360#overview
 >- https://udemy.com/course/java-web-services
 
+### tools java
+>- wsdl2java
+>- java2wsdl
+
 ### modos de jboss
 Un desarrollador utiliza su equipo para desarrollar aplicaciones Java EE con JBoss Developer Studio y prueba su código en el mismo equipo. ¿Cuál sería el modo operativo más apropiado para EAP 7? (Elija solo una opción).
 >- Servidor Independiente

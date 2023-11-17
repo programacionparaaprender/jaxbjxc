@@ -22,11 +22,13 @@ public class JAXBDemo {
 			StringWriter writer = new StringWriter();
 			//convertir objetos java a xml
 			marshaller.marshal(patient, writer);
+			System.out.println("convertir objetos java a xml");
 			System.out.println(writer.toString());
 			
 			StringReader reader = new StringReader(writer.toString());		
 			Unmarshaller unMarshaller = context.createUnmarshaller();
 			Patient patientResult = (Patient)unMarshaller.unmarshal(reader);
+			System.out.println("convertir objetos xml a java");
 			System.out.println(patientResult.getName());
 			
 			
